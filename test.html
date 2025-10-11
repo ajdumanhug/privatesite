@@ -3,7 +3,7 @@
 <script>
 
 setTimeout(()=>{
-win.postMessage({"html":"<img src=x onerror=alert('motoh4ck3r')>"})
+win.postMessage({html:"<img src=x onerror=alert('motoh4ck3r')>"}, "*")
 }
 ,5000)
 
